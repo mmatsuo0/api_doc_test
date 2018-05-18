@@ -2,6 +2,7 @@
 
 """
 module
+version 0.0.2
 """
 
 
@@ -20,6 +21,14 @@ class Class:
         method
         """
         pass
+
+    def method2(self, a):
+        """
+        method2
+
+        :param int a:
+        """
+        print(a)
 
 
 def func(s, x):
