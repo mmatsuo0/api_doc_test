@@ -2,7 +2,7 @@
 
 """
 module
-version 0.0.2
+version 0.0.2 edit
 """
 
 
@@ -27,6 +27,15 @@ class Class:
         method2
 
         :param int a:
+        """
+        print(a)
+
+    def method3(self, a):
+        """
+        method3
+
+        :param a: description
+        :type a: str
         """
         print(a)
 
